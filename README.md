@@ -34,8 +34,8 @@ Follow the steps below to use our quickstart repository.
 This repository has a small "Hello World" program to test your installation with. Go to the quickstart directory in a terminal window and run:
 
 ```sh
-# lines starting with `$` are the commands you type
-$ gradle build
+# lines starting with "$" are the commands you type
+$ gradlew build
 ...some stuff
 BUILD SUCCESSFUL
 
