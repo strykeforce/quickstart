@@ -25,7 +25,7 @@ Download and install the IntelliJ IDEA development environment from [here](https
 
 Follow the steps below to use our quickstart repository.
 
-1. Fork this repo. This will let you practice making changes and committing them to your own GitHub account.
+1. Download an [archive](https://github.com/strykeforce/quickstart/releases) or fork this repo. Forking will let you practice making changes and committing them to your own GitHub account.
 2. Clone the repository you just forked to your development computer.
 3. Open a terminal window and change directory to the `quickstart` directory you just cloned to your development computer.
 4. Run `./gradlew idea` on macOS/Linux and `gradlew idea` on Windows to set up the project for IntelliJ. The first time you run this GradleRIO will download a bunch of dependencies.
