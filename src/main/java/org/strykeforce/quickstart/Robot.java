@@ -1,8 +1,18 @@
 package org.strykeforce.quickstart;
 
-public class Robot {
+import edu.wpi.first.wpilibj.GenericHID.Hand;
+import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.Servo;
+import edu.wpi.first.wpilibj.XboxController;
 
-  public static void main(String[] args) {
-    System.out.println("Hello from Quickstart!");
+public class Robot extends IterativeRobot {
+
+  XboxController controller = new XboxController(0);
+  Servo servo = new Servo(1);
+
+  @Override
+  public void teleopPeriodic() {
+    double position = controller.getY(Hand.kLeft) * 0.5 + 0.5;
+    servo.set(position);
   }
 }
