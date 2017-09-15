@@ -21,6 +21,14 @@ public class Robot extends IterativeRobot {
   public void disabledPeriodic() {}
 
   @Override
+  public void autonomousInit() {
+    System.out.println("I'm enabled in autonomous.");
+  }
+
+  @Override
+  public void autonomousPeriodic() {}
+
+  @Override
   public void teleopInit() {
     System.out.println("I'm enabled in teleop.");
   }
