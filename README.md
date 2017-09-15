@@ -6,7 +6,7 @@ This repository gives students a quick start to setting up a FRC robot project i
 
 Do these steps once to set up your development computer for FRC Java programming.
 
-Go to www.putty.org  slick the dowloa here button, install the appropriate (32 vs. 64) version. Open and complete the installation wizard with the default settings
+Go to www.putty.org  click the download here button, install the appropriate (32 vs. 64) version. Open and complete the installation wizard with the default settings
 
 ### Java Development Kit
 
