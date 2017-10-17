@@ -15,8 +15,8 @@ wpi {
     ntcoreVersion = "+"
     opencvVersion = "3.1.0"
     cscoreVersion = "+"
+    talonSrxVersion = "4.4.1.14"
 }
-
 dependencies {
     compile wpilib()
     compile talonSrx()
@@ -24,8 +24,8 @@ dependencies {
 }
 
 def robotManifest = {
-  attributes 'Main-Class': 'edu.wpi.first.wpilibj.RobotBase'
-  attributes 'Robot-Class': frc.robotClass
+    attributes "Main-Class": "edu.wpi.first.wpilibj.RobotBase"
+    attributes "Robot-Class": frc.robotClass
 }
 
 jar {
