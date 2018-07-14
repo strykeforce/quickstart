@@ -1,7 +1,7 @@
 plugins {
     id "java"
     id "idea"
-    id "jaci.openrio.gradle.GradleRIO" version "2017.10.30"
+    id "jaci.openrio.gradle.GradleRIO" version "2018.03.06"
 }
 def TEAM = 2767
 def ROBOT_CLASS = "org.strykeforce.quickstart.Robot"
@@ -25,8 +25,8 @@ deploy {
 // and NavX.
 dependencies {
     compile wpilib()
-    compile ctre()
-    compile navx()
+//    compile ctre()
+//    compile navx()
 }
 
 // Setting up my Jar File. In this case, adding all libraries into the main jar ('fat jar')
