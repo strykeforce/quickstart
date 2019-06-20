@@ -1,5 +1,7 @@
 # Stryke Force Quickstart
 
+**Note: This is no longer maintained, use [cookiecutter-robot](https://github.com/strykeforce/cookiecutter-robot) instead.**
+
 This repository gives students a quick start to setting up a FRC robot project in Java. We use powerful [GradleRIO](https://github.com/Open-RIO/GradleRIO) to build our code.
 
 ## Prerequisites
